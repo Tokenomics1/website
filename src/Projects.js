@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 // Home Page 
-function App() {
+function Projects() {
   return (
     <div className="App">
       <header className="App-header">
@@ -18,12 +18,9 @@ function App() {
         >
           Learn HFHFHHf
         </a>
-        <a href='/Crafts_Index'>
-          Crafts Page
-        </a>
       </header>
     </div>
   );
 }
 
-export default App;
+export default Projects;
