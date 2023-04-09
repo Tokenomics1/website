@@ -1,19 +1,19 @@
-.App {
-  text-align: center;
+@import url('http://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
-.App-header {
-  background-color: #a0b6e2;
-  min-height: 100vh;
+.home, 
+.recipes, 
+.crafts, 
+.projects {
   display: flex;
-  flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(52px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #000709;
-  
+  font-size: 3rem;
 }

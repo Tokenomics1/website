@@ -1,15 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-// Home Page 
 function Projects() {
   return (
-    <div className="App">
-      <header className="App-header">
-    
-    
-
-      </header>
+    <div className='projects'>
+        <h1>Projects</h1>
     </div>
   );
 }
