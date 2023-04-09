@@ -1,17 +1,12 @@
 
+import React from 'react';
 
-// Crafts Page 
-function Crafts_Index() {
+function Crafts() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <p>
-        Welcome to the Crafts Page
-      </p>
-        
-      </header>
+    <div className='crafts'>
+        <h1>Crafts</h1>
     </div>
   );
 }
 
-export default Crafts_Index;
+export default Crafts;

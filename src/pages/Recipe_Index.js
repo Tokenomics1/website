@@ -1,17 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-// Home Page 
-function Recipe_Index() {
+function Recipes() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <p>
-        Welcome to the Recipes Index
-      </p>
-      </header>
+    <div className='recipes'>
+        <h1>Recipes</h1>
     </div>
   );
 }
 
-export default Recipe_Index;
+export default Recipes;

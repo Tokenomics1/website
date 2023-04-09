@@ -1,35 +1,29 @@
+
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Crafts_Index from './pages/Crafts_Index'
-import './App.css'
-// Home Page 
+import './App.css';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import Crafts from './pages/Crafts_Index'
+import Recipes from './pages/Recipe_Index'
+import Navbar from './components/Navbar';
+
 
 function App() {
   return (
-  <>
-  <Router>
-    <Routes>
-      <Route path='/Crafts_Index' element={<Crafts_Index />} />
-    </Routes>
-  </Router>
-  <div className="App">
-  <header className="App-header">
-    
-    <a
-      className="App-link"
-      
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Welcome to Tokenomics
-      
-  
-    </a>
-
-  </header>
-</div>
-</>
-  );
-}
+    <>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' exact component={Home} />
+        <Route path='/projects' component={Projects} />
+        <Route path='/crafts' component={Crafts} />
+        <Route path='/recipes' component={Recipes} />
+      </Routes>
+    </Router>
+    </>
+   );
+  }
 
 export default App;
