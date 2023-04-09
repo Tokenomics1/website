@@ -2,6 +2,7 @@
 import './App.css';
 
 // Home Page 
+
 function App() {
   return (<div className="App">
   <header className="App-header">
@@ -12,7 +13,7 @@ function App() {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Tokenomics
+      Welcome to Tokenomics
       
   
     </a>
