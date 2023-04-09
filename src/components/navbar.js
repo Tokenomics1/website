@@ -12,14 +12,11 @@ function Navbar() {
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
-    <>
     <IconContext.Provider value={{color: '#fff'}}>
       <div className='navbar'>
-     //may need to delete this icon below
-      <Link to="#" className='menu-bars'>
-        <FaIcons.FaBars onClick={showSidebar}/>
-     </Link>
-    </div>
+      <Link to="#" className='menu-bars'> </Link>  
+      <FaIcons.FaBars onClick={showSidebar} /> 
+      </div>
     <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
       <ul className='nav-menu-items' onClick={showSidebar}>
         <li className="navbar-toggle">
@@ -40,8 +37,6 @@ function Navbar() {
       </ul>
     </nav>
     </IconContext.Provider>
-    </>
-  );
-}
+      )};
 
 export default Navbar
