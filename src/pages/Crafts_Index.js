@@ -1,21 +1,14 @@
 
 
-// Home Page 
+// Crafts Page 
 function Crafts_Index() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit SDFSDj<code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn HFHFHHf
-        </a>
+      <p>
+        Welcome to the Crafts Page
+      </p>
+        
       </header>
     </div>
   );
